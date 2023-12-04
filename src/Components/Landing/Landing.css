@@ -62,3 +62,51 @@
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+    .landing {
+        flex-direction: column;
+        margin-top: 30px;
+        width: 90%px;
+    }
+
+    .land-left {
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+    .land-left h2 {
+        font-size: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .land-left p {
+        font-size: 40px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .land-hand-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .land-latest-button {
+        width: 250px; 
+        height: 50px; 
+        margin-top: 20px; 
+        font-size: 18px; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .land-right img {
+        display: none;
+    }
+}

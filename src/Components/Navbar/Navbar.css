@@ -80,3 +80,19 @@
     background: red;
     color: white;
 }
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-login-cart {
+        display: none;
+    }
+}

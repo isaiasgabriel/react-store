@@ -47,3 +47,27 @@
     justify-content: flex-end;
     padding-top: 100px;
 }
+
+@media screen and (max-width:768px) {
+    .offers {
+        margin-top: 1600px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+        width: 8rem;
+    }
+
+    .offers-right {
+        display: none;
+    }
+
+    .offers-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .offers-left h1 {
+        font-size: 30px;
+    }
+}
