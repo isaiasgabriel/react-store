@@ -83,16 +83,26 @@
 
 @media screen and (max-width: 768px) {
     .navbar {
-        flex-direction: column;
-        align-items: center;
         padding: 5px;
     }
 
-    .nav-menu {
+    .nav-logo {
+        gap: 5px;
+    }
+
+    .nav-logo p {
         display: none;
     }
 
+    .nav-menu {
+        font-size: 15px;
+    }
+
     .nav-login-cart {
+        display: none;
+    }
+
+    .nav-cart-count {
         display: none;
     }
 }

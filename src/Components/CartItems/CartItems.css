@@ -59,3 +59,23 @@
     display: block; 
     cursor: pointer;
 }
+
+@media screen and (max-width:768px){
+   .cartitems {
+    margin: 100px 40px;
+   } 
+
+   .cartitems-format-main {
+    font-size: 10px;
+    gap: 20px;
+   }
+
+   .cartitems-remove-icon {
+    width: 10px;
+    margin: 0px 10px;
+   }
+
+   .checkout {
+    width: 300px;
+   }
+}

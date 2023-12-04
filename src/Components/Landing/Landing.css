@@ -66,7 +66,7 @@
 @media screen and (max-width: 768px) {
     .landing {
         flex-direction: column;
-        margin-top: 30px;
+        margin-top: 120px;
         width: 90%px;
     }
 
@@ -106,7 +106,7 @@
         margin-right: auto;
     }
 
-    .land-right img {
+    .land-right{
         display: none;
     }
 }
