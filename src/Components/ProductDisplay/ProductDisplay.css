@@ -93,3 +93,32 @@
     outline: none;
     cursor: pointer;
 }
+
+@media screen and (max-width : 768px ) {
+    .productdisplay {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 2rem;
+        width: 100%;
+    }
+
+    .productdisplay-img-list {
+        display: none;
+    }
+
+    .productdisplay-main-img {
+        width: 100%;
+    }
+
+    .productdisplay-right{
+        margin: 0px 0px;
+    }
+
+    .productdisplay-right h1 {
+        margin: 0px 0px;
+    }
+
+    .productdisplay-right-sizes {
+        margin: 0px 0px;
+    }
+}
