@@ -32,7 +32,7 @@ const Navbar = () => {
           }}
         >
           <Link to="/mens" style={{ textDecoration: "none" }}>
-            Men
+            Masculino
           </Link>
           {menu === "mens" ? <hr /> : <></>}
         </li>
@@ -42,7 +42,7 @@ const Navbar = () => {
           }}
         >
           <Link to="/womens" style={{ textDecoration: "none" }}>
-            Women
+            Feminino
           </Link>
           {menu === "womens" ? <hr /> : <></>}
         </li>
