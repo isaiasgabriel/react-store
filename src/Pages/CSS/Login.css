@@ -1,8 +1,22 @@
 .login {
     width: 100%;
+	background: linear-gradient(-45deg, #caa9fb, #e1ffea22, #8239ff, #ffffff);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
     height: 150vh;
-    background: linear-gradient(180deg, #caa9fb , #e1ffea22 60%);
-    padding-top: 100px;
+    padding-top: 60px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .login-container {

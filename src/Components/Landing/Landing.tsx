@@ -16,9 +16,9 @@ const Landing = () => {
                         <img src={hand_icon} alt=''></img>
                     </div>
                     <p>coleção</p>
-                    <p>para todos</p>
+                    <p>masculina</p>
                 </div>
-                <Link to="/" style={{textDecoration : 'none'}}>
+                <Link to="/mens" style={{textDecoration : 'none'}}>
                 <div className="land-latest-button">
                     <div>Nova coleção</div>
                     <img src={arrow_icon} alt="" />

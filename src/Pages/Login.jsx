@@ -1,7 +1,13 @@
 import React from 'react'
 import './CSS/Login.css'
+import { useEffect } from 'react';
 
 const Login = () => {
+   useEffect(() => {
+    document.title = `e-fantasias | login`
+  }, []);
+
+
     return (
         <div className='login'>
             <div className="login-container">

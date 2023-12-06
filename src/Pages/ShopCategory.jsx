@@ -3,8 +3,22 @@ import "./CSS/ShopCategory.css";
 import dropdown_icon from "../Components/Assets/dropdown_icon.png";
 import all_product from "../Components/Assets/all_product";
 import Item from "../Components/Item/Item";
+import { useEffect } from "react";
 
 const ShopCategory = (props) => {
+
+  useEffect(() => {
+    if(props.category==='men'){
+      document.title = `e-fantasias | masculino`;
+    } else if (props.category==='women'){
+      document.title = 'e-fantasias | feminino';
+    } else if (props.category==='kid'){
+      document.title = 'e-fantasias | kids';
+    } else {
+      document.title = 'e-fantasias';
+    }
+  }, [props.category]);
+
   return (
     <div className="shop-category">
       <img className="shopcategory-banner" src={props.banner} alt="" />
