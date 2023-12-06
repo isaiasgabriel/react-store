@@ -328,7 +328,7 @@ let all_product = [
   {
     id: 37,
     name: "Fantasia de Halloween",
-    category: "kid",
+    category: "men",
     image: p37_img,
     new_price: 666.0,
     old_price: 911.0,

@@ -58,7 +58,7 @@
 }
 
 .productdisplay-right-price-new {
-    color: #ff4141;
+    color: #7b2eda;
 }
 
 .productdisplay-right-size h1 {
@@ -87,11 +87,17 @@
     font-size: 16px;
     font-weight: 600;
     color: white;
-    background-color: #ff4141;
+    background-color: #9041ff;
     margin-bottom: 40px;
     border: none;
     outline: none;
     cursor: pointer;
+    transition: background 0.3s , color 0.3s;
+}
+
+.productdisplay-right button:hover {
+    background: #7b2eda;
+    color: white;
 }
 
 @media screen and (max-width : 768px ) {

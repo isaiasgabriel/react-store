@@ -43,6 +43,13 @@
     color: #787878;
     font-size: 18px;
     font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.shopcategory-loadmore:hover {
+    background: #7b2eda;
+    color: white;
 }
 
 @media screen and (max-width:768px){
