@@ -12,7 +12,7 @@ const Navbar = () => {
       <Link to="/" style={{ textDecoration : 'none'}}>
         <div className="nav-logo">
           <img src={logo} alt="" />
-          <p>e-costumes</p>
+          <p>e-fantasias</p>
         </div>
       </Link>
       <ul className="nav-menu">
@@ -21,7 +21,7 @@ const Navbar = () => {
             setMenu("shop");
           }}
         >
-          <Link to="/" style={{ textDecoration: "none" }}>
+          <Link to="/" className="home"style={{ textDecoration: "none" }}>
             Home
           </Link>
           {menu === "shop" ? <hr /> : <></>}

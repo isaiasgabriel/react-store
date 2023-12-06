@@ -3,9 +3,13 @@ import './Item.css'
 import { Link } from "react-router-dom";
 
 const Item = (props) => {
+  const setTitle = () => {
+    document.title = props.name; 
+  };
+
   return (
     <div className="item">
-      <Link to={`/product/${props.id}`}>
+      <Link to={`/product/${props.id}`} onClick={setTitle}>
         <img
           onClick={() => window.scrollTo(0, 0)}
           src={props.image}
